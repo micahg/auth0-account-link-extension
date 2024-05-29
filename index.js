@@ -1,6 +1,10 @@
+console.log("HI MICAH");
+
 const nconf = require('nconf');
 const path = require('path');
 const logger = require('./lib/logger');
+
+logger.info("LOG MICAH");
 
 nconf
   .argv()
